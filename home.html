@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Project 1</title>
+    <style>
+        table, th, td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section id="Home">
+        <h1>Welcome To My Portfolio Web Page</h1>
+        <p>This is my Portfolio page for HTML Project 1 at GOMYCODE</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lq6X6p6Cavw?si=FKz_NGXuOz2RKG1u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </section>
+    <hr>
+    <section id="About">
+        <h2>About Info</h2>
+        <p>I am Umar-Faruq and i am a passionate and ambitious multidisciplinary technologist with strong interests across VR development, Mechatronics, software engineering, 3D design, and immersive training systems. I am trying to build a long-term career in technology with a strong focus on creating impactful innovations for education and engineering industry.</p>
+        <h3>My Skills</h3>
+        <ul>
+            <li>Circuit design</li>
+            <li>Servo and motor control</li>
+            <li>Arduino programming</li>
+        </ul>
+    </section>
+    <hr>
+    <section id="Work">
+        <h2>Work Info</h2>
+        <P>This are some of The Projects i have Worked on</P>
+        <table >
+            <tr>
+                <th>Project</th>
+                <th>Description</th>
+                <th>Images</th>
+            </tr>
+            <tr>
+                <td>Overspeed Detection System (Physical + Virtual)</td>
+                <td>Designed a complete Vehicle overspeed detection Prototype System</td>
+                <td><a href="0026.png">Overspeed Detection Image</a></td>
+            </tr>
+            <tr>
+                <td>File Scanner Software</td>
+                <td>A desktop software that Scans USB flash drives and Automatically deletes corrupted or non-functional files.
+                </td>
+                <td><a href="file_scanner.png">File Scanner Image</a></td>
+            </tr>
+        </table>
+    </section>
+    <section id="Resume">
+        <h2>Resume</h2>
+        <p><b>Oladoja Umar-Faruq Damilola</b> is a Nigerian <i>Mechatronics</i> technologist, VR developer, and 3D designer with strong skills in engineering systems, Unity, Blender, CAD, and software development. He has completed a National Diploma in Mechatronics Engineering and has experience building virtual training environments, industrial simulations, and embedded systems. <B>Faruq</B> is highly driven, constantly improving his technical abilities, and focused on creating innovative VR solutions that expand access to engineering <del>education</del> and tools.</p>
+    </section>
+    <section id="Contact">
+        <h2>Contact Info</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required placeholder="gomycode@email.com">
+                <br>
+                <label for="message">Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+            </fieldset>
+        </form>
+    </section>
+    <hr>
+  </body>
+  <footer>
+    <p>&copy; 2025 MY PORTFOLIO FOR GOMYCODE HTML PROJECT</p>
+  </footer>
+</html>
